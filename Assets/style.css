@@ -103,6 +103,7 @@ aside h2 {
 }
 
 .grid-0 {
+  position:relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -112,7 +113,7 @@ aside h2 {
   color: var(--hover);
   outline: 2px solid var(--dark);
   outline-offset: -2px;
-  width: 100%;
+  width: 87%;
 }
 
 @media screen and (max-width: 70em) {
@@ -145,7 +146,7 @@ aside h2 {
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: auto;
   width: 90%;
-  height: 100vh;
+  height: 90vh;
   justify-content: flex-start;
   align-content: space-around;
   flex: 1 0 100%;
@@ -166,6 +167,7 @@ aside h2 {
 }
 
 .grid-1 {
+  position: relative;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
@@ -189,6 +191,7 @@ aside h2 {
 }
 
 .grid-2 {
+  position: relative;
   -ms-grid-column: 3;
       grid-column-start: 3;
   grid-column-end: 5;
@@ -212,6 +215,7 @@ aside h2 {
 }
 
 .grid-3 {
+  position: relative;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 3;
@@ -235,6 +239,7 @@ aside h2 {
 }
 
 .grid-4 {
+  position: relative;
   -ms-grid-column: 3;
       grid-column-start: 3;
   grid-column-end: 5;
@@ -269,10 +274,13 @@ aside h2 {
 }
 
 .item {
-  flex: auto;
+  /* position: absolute; */
+  top:0;
+  /* flex: auto; */
   justify-items: center;
   width: 75%;
   height: auto;
+  border: 1px solid black;
 }
 
 article {
