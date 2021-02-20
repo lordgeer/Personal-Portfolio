@@ -10,9 +10,11 @@ otherwise download the code and have a look for youself
 ## Usage
 View my page and the associated work links that are available, questions can be refered to my contact me links at the bottom of the page
 
-![Portfolio1](images/Screenshot(3).png)
-![Portfolio2](images/Screenshot(4).png)
-![Portfolio3](images/Screenshot(5).png)
+![Portfolio](images/Screenshot_3.png)
+
+![Portfolio](images/Screenshot_4.png)
+
+![Portfolio](images/Screenshot_5.png)
 
 
 ## Contributing
