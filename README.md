@@ -1,4 +1,3 @@
-# My Portfolio
 
 This is my personal portfolio for my completed work as well as to show prospective employers
 
